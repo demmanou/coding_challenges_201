@@ -1,13 +1,12 @@
 import unittest
 
 
-# Given a integer, find the sequence of operations
+# Given an integer, find the sequence of operations
 # required to reach that number starting with 1
 # The operations allowed are adding 5 and multiplying by 3
 # For example 6 can be reached by adding 5 to 1 so the solution
 # would be '1 + 5'. For 13 the solution would be '1 * 3 + 5 + 5'.
 # If no solution is possible, return an empty string
-# You're asked to find the fastest solution
 
 
 class Solution:
