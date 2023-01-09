@@ -7,6 +7,7 @@ import unittest
 # For example 6 can be reached by adding 5 to 1 so the solution
 # would be '1 + 5'. For 13 the solution would be '1 * 3 + 5 + 5'.
 # If no solution is possible, return an empty string
+# Find the solution that requires the least number of operations
 
 
 class Solution:
@@ -19,6 +20,7 @@ class Test(unittest.TestCase):
         (6, '1 + 5'),
         (13, '1 * 3 + 5 + 5'),
         (15, ''),
+        (23, '1 + 5 * 3 + 5')
     ]
 
     test_functions = [
